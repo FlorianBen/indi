@@ -892,6 +892,15 @@ add_executable(indi_moonlitedro_focus ${moonlitedro_SRC})
 target_link_libraries(indi_moonlitedro_focus indidriver)
 install(TARGETS indi_moonlitedro_focus RUNTIME DESTINATION bin)
 
+################ Poor Man's Celestron Focuser ################
+
+SET(diycelestron_SRC
+    ${CMAKE_CURRENT_SOURCE_DIR}/drivers/focuser/diycelestron.cpp)
+
+add_executable(indi_diycelestron_focus ${diycelestron_SRC})
+target_link_libraries(indi_diycelestron_focus indidriver)
+install(TARGETS indi_diycelestron_focus RUNTIME DESTINATION bin)
+
 ################ MyFocuserPro2 Focuser ################
 
 SET(myfocuserpro2_SRC
