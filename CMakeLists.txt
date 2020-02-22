@@ -408,6 +408,8 @@ SET(indidriver_CXX_SRC
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indifilterwheel.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indifocuserinterface.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indiweatherinterface.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indiheater.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indiheaterinterface.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indifocuser.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indirotator.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/indibase/indiusbdevice.cpp
