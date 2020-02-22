@@ -1442,6 +1442,15 @@ add_executable(indi_snapcap ${snapcap_SRC})
 target_link_libraries(indi_snapcap indidriver)
 install(TARGETS indi_snapcap RUNTIME DESTINATION bin)
 
+########### Heater Simulator ###############
+
+#SET(heater_simulator_SRC
+#    ${CMAKE_CURRENT_SOURCE_DIR}/drivers/auxiliary/heater_simulator.cpp)
+
+#add_executable(indi_simulator_heater ${heater_simulator_SRC})
+#target_link_libraries(indi_simulator_heater indidriver)
+#install(TARGETS indi_simulator_heater RUNTIME DESTINATION bin)
+
 ########### Light Pollution Meter #############
 
 SET(lpm_SRC
